@@ -10,7 +10,7 @@ function App() {
  
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={'/react-new-features/ReactPOC2'}>
      {/* <></BasicLogin> */}
      <Route exact path="/" component={BasicLogin}></Route>
      <Route path="/admin" component={AdminDashboard}></Route>
